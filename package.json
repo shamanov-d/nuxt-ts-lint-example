@@ -1,0 +1,26 @@
+{
+  "name": "example-class-api-minimal",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "nuxt": "latest",
+    "typescript-eslint": "0.0.1-alpha.0",
+    "vue-property-decorator": "latest"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "post-update": "yarn upgrade --latest",
+    "lint": "eslint --fix --ext .ts,.js,.vue ."
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "latest",
+    "@nuxtjs/eslint-config-typescript": "^2.0.0",
+    "eslint": "^7.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "eslint-plugin-jest": "^23.10.0",
+    "jest": "^26.0.1"
+  }
+}
